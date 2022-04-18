@@ -63,8 +63,21 @@ Escreva(ComidaFavorita)
   Escreva (" Qual seu estilo musical favorito ")
  Leia (Resp4)
  
+ se (Resp4 = "Rock") entao
+   escreval("Você é um rockeiro")
+ fimse
+
+ se (Resp4 = "Sertanejo") entao
+   escreval("Você é um rockeiro")
+ fimse
  
+  se (Resp4 = "Pagode") entao
+   escreval("Você é um rockeiro")
+ fimse
  
+  se (Resp4 = "Reggae") entao
+   escreval("Você é um rockeiro")
+ fimse
 
 Senao
 //Faz outra coisa //
