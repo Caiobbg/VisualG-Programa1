@@ -1,6 +1,8 @@
 algoritmo "Cartomante "
+//  
+//  
 var
-  Resp2, Resp3, Resp4, senha5, ComidaFavorita :Caractere
+  Resp2, Resp3, Resp4, senha5, ComidaFavorita, musicaFav ,respum1, oquee :Caractere
   Resp1, TamNome :Inteiro
 inicio
 
@@ -33,7 +35,7 @@ Se (senha5 = "pizza" ) Entao
    
  Fimse
  
- 
+ Limpatela
 
  Escreva (" Qual sua comida favorita?.. pizza(1),  churrasco(2), feijoada(3), sushi(4)")
  Leia (Resp3)
@@ -58,32 +60,63 @@ se (resp3 = "4") entao
 fimse
 
 Escreva(ComidaFavorita)
+
+ /////////////////////////////////////////////////////////////////////
+ /////////////////////////////////////////////////////////////////////
  
+  escreval  ("                                                                ")
+  Escreval  ("                                                                ")
  
-  Escreva (" Qual seu estilo musical favorito ")
+  Escreva (" Qual seu estilo musical favorito?.. rock(1), sertanejo (2), pagode (3), reggae(4)")
  Leia (Resp4)
+
+ musicaFav <- "Não foi escolhido o item correto, seu tanço"
  
- se (Resp4 = "Rock") entao
-   escreval("Você é um rockeiro")
+ se (Resp4 = "1") entao
+    musicaFav <- " Você é um satanista "
  fimse
 
- se (Resp4 = "Sertanejo") entao
-   escreval("Você é um rockeiro")
+ se (Resp4 = "2") entao
+     musicaFav <- " Você só pode ser um corno "
  fimse
  
-  se (Resp4 = "Pagode") entao
-   escreval("Você é um rockeiro")
+  se (Resp4 = "3") entao
+    musicaFav <- " Você só pode ser um afro decendente "
  fimse
  
-  se (Resp4 = "Reggae") entao
-   escreval("Você é um rockeiro")
+  se (Resp4 = "4") entao
+    musicaFav <- " Você é um maconheiro "
  fimse
 
-Senao
+
+ 
 //Faz outra coisa //
+Escreval (musicaFav)
 
-Escreva (" A senha está Incorreta, tente mais tarde")
+  escreval  ("                                                                ")
+  Escreval  ("                                                                ")
 
+Escreva ("ja que voce chegou até aqui vamos lhe fazer algumas perguntas")
+Escreval  (" oque é  oque é tem 50 pernas mais não se mechem ?")
+Escreva  (" letra (1)- 25cadeirantes- " )
+escreval  ("                                                                ")
+escreva  (" letra (2)- uma centopeia paralitica- " )
+Leia (respum1)
 
+oquee <- "Não foi escolhido o item correto, seu tanço"
+
+se (respum1 = "1") entao
+    oquee <- " Você acertou porem não vai para o céu "
+ fimse
+ 
+ se (respum1 = "2") entao
+    oquee <- " Você errou seu burro "
+ fimse
+ 
+ Limpatela
+ Escreva (oquee)
+ 
+ 
+ 
 Fimse
 fimalgoritmo
